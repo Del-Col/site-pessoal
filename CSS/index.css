@@ -18,18 +18,23 @@ body {
 }
 
 .menu {
-    background-color: black;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .menu a {
+    float: left;
+    display: block;
     color: white;
-}
-.menu ul li {
-    list-style: none;
-}
-
-a {
-    color: rgb(41, 39, 39);
+    text-align: center;
+    padding: 14px 20px;
     text-decoration: none;
-}
+  }
 
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 .hab {
     margin: 0;
     margin-bottom: 15px;
