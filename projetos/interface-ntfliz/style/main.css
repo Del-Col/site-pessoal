@@ -67,22 +67,39 @@ header nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
 }
 
+.house {
+    color: orangered;
+}
+
 .botao {
     background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
     border: none;
     color:white;
     text-align: center;
 
-    padding: 10px 100px;
+    padding: 10px 30px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 16px;
     
 
     cursor: pointer;
     transition: .3s ease all;
 }
 
+.botao span {
+    margin-right: 8px;
+}
+
 .botao:hover {
     background-color: orangered;
     color: black;
+}
+
+.conteiner {
+    margin-left: 10px;
+}
+
+.filme-principal .conteiner {
+    width: 70%;
 }
