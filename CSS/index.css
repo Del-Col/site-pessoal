@@ -24,6 +24,17 @@ body {
     
 }
 
+.btn {
+    display: flex;
+}
+
+.btn1 {
+    background-color: #333;
+    color: #ddd;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
 #title, .subtitle, .post-title {
     color: rgb(41, 39, 39);
     margin-left: 15px;

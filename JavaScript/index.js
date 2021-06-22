@@ -16,3 +16,8 @@ function botao() {
 }
 
 window.addEventListener('scroll', botao);
+
+function trocarimagem(filename) {
+    document.querySelector('.img-header').setAttribute('src', 'midia/'+filename);
+    document.querySelector('.imagem').setAttribute();
+}
